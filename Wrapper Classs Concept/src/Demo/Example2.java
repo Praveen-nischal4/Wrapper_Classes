@@ -35,6 +35,12 @@ public class Example2 {
 		
 		 System.out.println("------------------------------------->");
 		 
+		 
+		 //valueOf() method of the Byte class, which typically takes a String as 
+		 //input to parse and return a Byte object. However, since you're passing a primitive byte 
+		 //variable bd directly to valueOf(), it's being autoboxed into a Byte object. 
+		 
+		 
 		 byte bd =12;
 		 
 		 //Using autoboxing, byte is automatically converted to Byte
